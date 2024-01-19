@@ -39,10 +39,10 @@ public class Program {
 
 				System.out.println("INVOICE: ");
 				System.out
-						.println("Basic payment: R$" + String.format("%.2f", carRental.getInvoice().getBasicPayment()));
-				System.out.println("Tax: R$" + String.format("%.2f", carRental.getInvoice().getTax()));
+						.println("Basic payment: " + String.format("%.2f", carRental.getInvoice().getBasicPayment()));
+				System.out.println("Tax: " + String.format("%.2f", carRental.getInvoice().getTax()));
 				System.out
-						.println("Total payment: R$" + String.format("%.2f", carRental.getInvoice().getTotalPayment()));
+						.println("Total payment: " + String.format("%.2f", carRental.getInvoice().getTotalPayment()));
 			} else {
 				System.out.println("Error: The vehicle pick-up date cannot be later than the return date! ");
 			}

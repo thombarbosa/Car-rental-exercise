@@ -5,12 +5,12 @@ import java.time.LocalDateTime;
 public class CarRental {
 	private LocalDateTime start;
 	private LocalDateTime finish;
-	
+
 	private Vehicle vehicle;
 	private Invoice invoice;
-	
+
 	public CarRental() {
-		
+
 	}
 
 	public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle) {
